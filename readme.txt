@@ -1,0 +1,1 @@
+This is empty java web application project prepared with thymeleaf.
