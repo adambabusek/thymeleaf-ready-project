@@ -7,7 +7,8 @@
 </head>
 <body>
 	<th:block xmlns:th="http://www.thymeleaf.org">
-		<h1 th:text="'Hello, '+ ${name} + '!'">greetings</h1>
+		<h2 th:text="#{title}">title</h2> <!-- 'title' message is searched in messages.properties -->
+		<h2 th:text="#{greeting(${name})}">greeting</h2> <!-- 'greeting' message is searched in messages.properties -->
 	</th:block>
 </body>
 </html>
