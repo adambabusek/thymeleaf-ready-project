@@ -46,7 +46,7 @@ public class ThymeServlet extends HttpServlet {
 	}
 
 	/**
-	 * Method calls {@link ITemplateEngine.process(final String template, final IContext context, final Writer writer)}
+	 * Method calls {@link org.thymeleaf.ITemplateEngine#process()}
 	 * @param template
 	 * @param request
 	 * @param response
