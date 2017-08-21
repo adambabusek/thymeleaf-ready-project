@@ -16,6 +16,8 @@ import org.thymeleaf.messageresolver.StandardMessageResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 
+import com.thymeleafready.messageresolvers.MyMessageResolver;
+
 /**
  * Base servlet with template resolver and template engine instantiation. Extends this servlet to have template processing available.
  */

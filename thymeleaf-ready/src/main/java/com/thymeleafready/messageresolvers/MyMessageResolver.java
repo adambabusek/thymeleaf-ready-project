@@ -1,4 +1,4 @@
-package com.thymeleafready.servlets;
+package com.thymeleafready.messageresolvers;
 
 import java.text.MessageFormat;
 import java.util.MissingResourceException;
